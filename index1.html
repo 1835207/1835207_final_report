@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <meta name="author" content="Haruka NAKANISHI">
+    <meta name="keywords" content="留学、カナダ、海外">
+    <title>カナダ留学レポート</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top">🍁カナダ留学レポート🍁</h1>
+        <nav id="menu">
+            <a href="./index1.html" target="_blank">　School　</a>
+            <a href="./index2.html" target="_blank">　Homestay　</a>
+            <a href="./index3.html" target="_blank">　Leisure　</a>
+        </nav>
+    </header>
+
+    <div>
+        <h2>------ 学校について ------</h2>
+        <p>大学１年の３月から、学部の必修プログラムで留学を経験しました</p>
+
+            <h3>Simon Fraser University (Vancouver Campus)</h3>
+            <img src="../hw0724/img/sfu.jpg" alt="サイモンフレーザー大学" height="300">
+
+            <div>
+                <h4 class="title">プログラム</h4>
+                <ul>
+                    <li>City：Vancouver, BC, Canada</li>
+                    <li>Period：3月～6月（2か月×2ターム）</li>
+                    <li>Language：英語</li>
+                    <li>Classmates：一クラス10-15人（日本人、韓国人、中国人、イラン出身など）</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="title">クラス</h4>
+                <table>
+                    <tr>
+                        <th>授業</th>
+                        <th>学習内容</th>
+                    </tr>
+                    <tr>
+                        <td>Oral Skills</td>
+                        <td>発音、会話</td>
+                    </tr>
+                    <tr>
+                        <td>Literature</td>
+                        <td>小説（音読・読み取り）</td>
+                    </tr>
+                        <td>Canadian Studies</td>
+                        <td>カナダ社会（政治、歴史、国について）</td>
+                    </tr>
+                    <tr>
+                        <td>Composition</td>
+                        <td>文法、エッセー</td>
+                    </tr>
+                    <tr>
+                        <td>News Media</td>
+                        <td>時事ニュース、プレゼンテーション</td>
+                    </tr>
+                </table>
+            </div>            
+    </div>
+
+    <h3 id="quiz">カナダクイズ</h3>
+        <p>Q.カナダの国獣は次のうちどれでしょう？</p>
+        <button type="button" onclick="quiz (0)">カナダグース</button>
+        <button type="button" onclick="quiz (1)">リス</button>
+        <button type="button" onclick="quiz (2)">ビーバー</button>
+        
+        <div id="quiz-result">
+            <p id="quiz-result-p"></p>
+        </div>
+
+    
+    <div>
+            <a href="#top">トップに戻る</a>
+        </div>
+        
+        
+        <footer>
+            Copyright &copy; Haruka NAKANISHI, All Rights Researved.
+        </footer>
+    </body>
+    
+    </html>
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js" integrity="sha512-lUsN5TEogpe12qeV8NF4cxlJJatTZ12jnx9WXkFXOy7yFbuHwYRTjmctvwbRIuZPhv+lpvy7Cm9o8T9e+9pTrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- クイズ -->
+    <script src="js/quiz.js"></script>
+
+    
+    <!-- <div id="comment">
+        <h3>💬コメントを残す</h3>
+        <form action="#" method="POST">
+                <div>
+                    <p>名前</p>
+                    <label for="last-name"></label>
+                    <input type="text" name="lastname" id="last-name" placeholder="姓" required>
+                    
+                    <label for="first-name"></label>
+                    <input type="text" name="firstname" id="first-name" placeholder="名" required>  
+                </div>
+                
+                <div>
+                    <p>性別</p>
+                    <label>
+                        
+                        <input type="radio" name="sex" value="male">
+                        男性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="female">
+                        女性
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="other">
+                        その他
+                    </label>
+                </div>
+                
+                <div>
+                    <p>メールアドレス</p>
+                    <label>
+                        <input type="email">
+                    </label>
+                </div>
+
+                <div>
+                    <p>コメント</p>
+                    <label for="requests"></label>
+                    <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+                </div>
+                
+                <p></p>
+
+                
+                <div>
+                    
+                    <input type="submit" value="送信する">
+                    
+                    <input type="reset" value="リセット">
+                    
+                </div>
+            </form>
+            
+        </div> -->

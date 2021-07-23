@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* ―――index1のスタイル――― */
+
+/* 表題を中央に */
+#top {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ナビゲーションを中央に */
+#menu {
+    text-align: center;
+    
+}
+
+/* リンクのボタンのビジュアル */
+a {
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-color: rgba(108, 102, 109, 0.582);
+}
+
+/* リンクにマウスカーソルが乗っている */
+a:hover {
+    font-size: 1.5em;
+}
+
+/* 未訪問のリンク */
+a:link {
+    color: black;
+}
+
+/* 訪問済みのリンク */
+a:visited {
+    color: rgb(124, 2, 124);
+}
+
+/* タイトルのスタイル */
+.title {
+    width: 700px;
+    background-color: rgba(145, 154, 158, 0.363);
+
+}
+
+/* ―――index3のスタイル――― */
+#box-wrapper {
+    /* おまじないみたいなもんなんで気にしないで～ */
+    overflow: hidden;
+}
+
+#box1 {
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: 5px solid rgba(180, 99, 6, 0.425);
+
+}
+    
+#box2 {
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+    height: 300px;
+    border: 5px solid rgba(5, 112, 148, 0.432);
+}
+
+#box3 {
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+    height: 300px;
+    border: 5px solid rgba(3, 129, 3, 0.452);
+}
+
+#box4 {
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+    height: 300px;
+    border: 5px solid rgba(228, 215, 26, 0.39);
+}
+
+div > div > .place {
+    text-align: center;
+}
+
+#quiz {
+    text-decoration-line: underline;
+    text-decoration-color: rgba(152, 211, 15, 0.452);
+    text-decoration-thickness: 5px;
+}
